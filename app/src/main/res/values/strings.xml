@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Daily Forecast</string>
+    <string name="city_name">City Name</string>
+</resources>
