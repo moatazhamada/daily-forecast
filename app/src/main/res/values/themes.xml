@@ -16,11 +16,6 @@
 
     <style name="SearchViewStyle" parent="Widget.AppCompat.SearchView">
         <!--search view customization-->
-        <item name="android:textColor">@color/white</item>
-        <item name="colorControlNormal">@color/white</item>
-        <item name="colorControlHighlight">@color/white</item>
-        <item name="android:textColorHint">@color/white</item>
-        <item name="layout">@layout/abc_search_view</item>
         <item name="queryBackground">@drawable/abc_textfield_search_material</item>
         <item name="submitBackground">@drawable/abc_textfield_search_material</item>
         <item name="closeIcon">@drawable/abc_ic_clear_material</item>
