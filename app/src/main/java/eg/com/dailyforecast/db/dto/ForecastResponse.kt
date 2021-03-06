@@ -7,9 +7,9 @@ import androidx.annotation.Keep
 @Keep
 data class ForecastResponse(
     @SerializedName("cod")
-    val code: String, // 200
+    val code: String, // "200"
     @SerializedName("message")
-    val message: Int, // 0
+    val message: String, // "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."
     @SerializedName("cnt")
     val count: Int, // 40  => A number of timestamps returned in the API response
     @SerializedName("list")

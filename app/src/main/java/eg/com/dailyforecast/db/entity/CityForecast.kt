@@ -5,6 +5,7 @@ import androidx.room.Entity
 import androidx.room.ForeignKey
 import androidx.room.Index
 import androidx.room.PrimaryKey
+import com.google.gson.JsonObject
 import eg.com.dailyforecast.db.dto.ForecastResponse
 import java.util.Calendar
 

@@ -1,17 +1,17 @@
 package eg.com.dailyforecast.utils
 
-import android.app.Application
 import android.content.Context
 import android.net.ConnectivityManager
-import android.net.wifi.WifiConfiguration
-import android.net.wifi.WifiManager
-import eg.com.dailyforecast.MyApplication
+import dagger.hilt.android.qualifiers.ApplicationContext
+import eg.com.dailyforecast.ui.MyApplication
 import kotlinx.coroutines.*
 import java.io.IOException
 import java.net.*
+import javax.inject.Inject
 
 
-class ConnectivityUtils {
+class ConnectivityUtils  {
+
     companion object {
         // check for the internet using socket to ping google host
         private fun isOnline(): Boolean {

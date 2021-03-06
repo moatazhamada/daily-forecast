@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">Daily Forecast</string>
     <string name="city_name">City Name</string>
+    <string name="sorry_not_accurate_data">Sorry, not accurate Data</string>
+    <string name="unexpected_exception">Something went wrong</string>
 </resources>

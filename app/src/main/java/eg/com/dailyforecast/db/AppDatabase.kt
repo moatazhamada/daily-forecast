@@ -8,7 +8,7 @@ import androidx.room.TypeConverters
 import eg.com.dailyforecast.db.dao.CityForecastDao
 import eg.com.dailyforecast.db.entity.CityForecast
 import eg.com.dailyforecast.utils.Converters
-import eg.com.dailyforecast.utils.DATABASE_NAME
+import eg.com.dailyforecast.utils.Constants.DATABASE_NAME
 
 /**
  * The Room database for this app

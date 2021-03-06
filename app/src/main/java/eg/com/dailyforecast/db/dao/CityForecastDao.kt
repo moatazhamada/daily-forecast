@@ -10,7 +10,7 @@ import kotlinx.coroutines.flow.Flow
 @Dao
 interface CityForecastDao {
     @Query("SELECT * FROM forecast WHERE city_name = :cityName LIMIT 1")
-    fun getCityForecast(cityName:String): List<CityForecast>
+    suspend fun getCityForecast(cityName:String): List<CityForecast>
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertCityForecast(cityForecast: CityForecast)
